@@ -1,0 +1,17 @@
+package oop.inheritance.lesson9.task;
+
+//Каждый человек умеет получать зарплату
+//У каждого человека есть пол
+public abstract class Human {
+    private boolean isMan;
+
+    public Human(boolean isMan) {
+        this.isMan = isMan;
+    }
+
+    public boolean isMan() {
+        return isMan;
+    }
+
+    public abstract void getSalary();
+}
