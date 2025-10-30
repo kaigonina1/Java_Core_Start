@@ -27,5 +27,8 @@ public class Child {
         return false;
     }
 
-    
+    @Override
+    public int hashCode() {
+        return this.getYear()%2;
+    }
 }
